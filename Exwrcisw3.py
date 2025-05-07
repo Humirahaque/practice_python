@@ -9,6 +9,6 @@ def quick_sort(arr):
     return quick_sort(left) + [pivot] + quick_sort(right)
 
 
-arr = [1,5,3,9,2]
+arr = [10,50,30,19,12]
 sorted_arr = quick_sort(arr)
 print(sorted_arr)
